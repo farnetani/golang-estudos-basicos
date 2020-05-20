@@ -45,4 +45,10 @@ func main() {
 
 	fmt.Println(car1.info())
 
+	sCar2 := SuperCar{
+		Car: car1,
+		CanFly: true,
+	}
+	fmt.Println(sCar2)
+
 }
